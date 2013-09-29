@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main () {
+	char broqch=0;
+	while (broqch<255) {
+		printf("%c,%c,\n",'broqch',"-",broqch);
+		broqch++;
+	}
+return 0;
+}
